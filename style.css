@@ -1,0 +1,74 @@
+/* 3. Body: Fuente moderna, fondo suave y sin márgenes molestos */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Se ve mejor que Arial */
+    font-size: 16px;
+    margin: 0; /* Elimina los bordes blancos por defecto del navegador */
+    background-color: #f4f4f4; /* Un gris muy clarito de fondo, menos cansado para la vista */
+    color: #333; /* El texto no es negro puro, es gris oscuro (más elegante) */
+}
+
+/* 4. Header: Un encabezado con color sólido y sombra */
+header {
+    background-color: #0056b3; /* Azul profesional */
+    color: white;
+    padding: 40px 0; /* Más espacio para que respire */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra sutil debajo */
+}
+
+/* 5. Nav: Barra de navegación oscura */
+nav {
+    background-color: #333;
+    text-align: center; /* Centra los botones del menú */
+    padding: 10px 0;
+}
+
+/* 6. Main: Estilo tipo "tarjeta" centrado */
+main {
+    background-color: #ffffff;
+    font-size: 18px;
+    line-height: 1.6; /* Mejora la lectura separando las líneas */
+    
+    /* Trucos para centrar el contenido y que parezca una hoja de papel */
+    width: 80%; 
+    max-width: 800px;
+    margin: 30px auto; /* "auto" centra la caja horizontalmente */
+    padding: 40px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Efecto de elevación */
+}
+
+/* 7. Footer: Pie de página limpio */
+footer {
+    background-color: #222;
+    color: #aaa; /* Texto gris claro */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+/* 8. Li: Los elementos del menú ahora parecen botones */
+li {
+    display: inline-block;
+    width: 120px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer; /* Hace que salga la "manito" del mouse */
+    transition: 0.3s; /* Suaviza el cambio de color */
+}
+
+/* Extra: Efecto al pasar el mouse por encima del menú */
+li:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* 9. H1: Título estilizado */
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 300; /* Letra más fina y elegante */
+    text-transform: uppercase; /* Todo en mayúsculas */
+    letter-spacing: 2px; /* Separa un poco las letras */
+    margin: 0;
+}
